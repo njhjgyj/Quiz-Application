@@ -1,0 +1,91 @@
+/*  Quiz Application Code  */
+
+*{
+    background-color: rgb(150, 255, 255);
+}
+
+#quizdiv1{
+    text-align: center;
+    display: none;
+}
+
+#inpoption1, #inpoption2, #inpoption3, #inpoption4{
+    cursor: pointer;
+    margin: 20px;
+}
+
+.resbtn, .nxtbtnclass{
+    border: none;
+    border-radius: 10px;
+}
+.resbtn:hover, .nxtbtnclass:hover{
+    transition: 0.3s;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#infodiv1{
+    text-align: center;
+    margin-top: 30%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-left: 80%; */
+    /* box-shadow: inset 2px 2px 20px black; */
+    
+}
+
+#quizdiv1{
+    text-align: center;
+    /* border: 1px solid gray; */
+    margin-top: 10%;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 3rem;
+}
+
+#maindiv{
+    width: 50%;
+    margin-top: 5%;
+    /* border: 1px solid  gray; */
+    margin-left: 25%;
+    /* height: 37rem; */
+    /* border-radius: 20px; */
+    /* background-color: antiquewhite; */
+    /* box-shadow: inset 2px 2px 20px black; */
+}
+
+@media screen and (max-width: 700px) and (min-width: 250px){
+    #maindiv{
+        width: 120%;
+        position: relative;
+        right: 80px;
+    }
+}
+
+#innerquizdiv1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+button{
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+#bttn1:hover{
+    transition: 0.3s;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    cursor: pointer;
+}
