@@ -1,0 +1,83 @@
+<!--  Quiz Application Code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="quiz.css">
+    <!-- <script src="quiz.js"></script> -->
+
+</head>
+<body>
+    
+    <div id="maindiv">
+
+        <div id="infodiv1">
+
+            <p id="ptag1">There are 3 rules of this Quiz</p>
+
+            <p id="ptag2">1. You have 30 seconds to give Answer</p>
+
+            <p id="ptag3">2. There are total of 5 OR 6 Questions dont skip any question</p>
+
+            <p id="ptag4">3. Once you start your quiz then you cannot restart your quiz and exit your quiz</p>
+
+            <button id="bttn1" onclick="foo1()">Start Quiz</button>
+
+        </div>  <!-- infodiv1 ends here -->
+
+        <div id="quizdiv1">
+
+            <div id="innerquizdiv1">
+
+            <h3 id="h3tag1" class="questions">Q1. What does HTML Stands for</h3> <p id="ptagtimer1" class="timecount"></p><br>
+
+            <!-- <p id="ptagoption1" class="optionclass">a) Hyper Text Markup Language</p>
+
+            <p id="ptagoption2" class="optionclass">b) Hyper Text Markup Language</p>
+
+            <p id="ptagoption3" class="optionclass">c) Hyper Text Markup Language</p>
+
+            <p id="ptagoption4" class="optionclass">d) Hyper Text Markup Language</p> -->
+
+            <input type="radio" name="options" id="inpoption1" class="optionclass">
+            <label for="inpoption1" id="labeloption1" class="labelclass">Options come here</label><br><br>
+
+            <input type="radio" name="options" id="inpoption2" class="optionclass">
+            <label for="inpoption2" id="labeloption2" class="labelclass">Options come here</label><br><br>
+
+            <input type="radio" name="options" id="inpoption3" class="optionclass">
+            <label for="inpoption3" id="labeloption3" class="labelclass">Options come here</label><br><br>
+
+            <input type="radio" name="options" id="inpoption4" class="optionclass">
+            <label for="inpoption4" id="labeloption4" class="labelclass">Options come here</label><br><br>
+
+            <!-- <input type="radio" name="options" id="inpoption5" class="optionclass">
+            <label for="inpoption5" id="labeloption5" class="labelclass">Options come here</label><br><br> -->
+
+            </div> <!-- innerquizdiv1 ends here -->
+
+            <div id="quiz1bttndiv1">
+
+            <button id="nxtbtn" class="nxtbtnclass" onclick="nxtfunction()">Next</button>
+
+            <!-- <p id="ptagresult"></p> -->
+
+            </div>  <!-- quiz1bttndiv1 ends here -->
+
+            <div id="showresult" class="showresultclass"></div>
+
+        </div>  <!-- quizdiv1 ends here -->
+
+    </div>  <!-- maindiv ends here -->
+
+    <!-- <button>Quit Quiz </button> <button>Restart Quiz </button>  -->
+
+    <script src="quiz.js"></script>
+
+</body>
+</html>
