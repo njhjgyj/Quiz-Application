@@ -1,0 +1,158 @@
+/*  Sign-up Page Code  */
+
+@keyframes freefire {
+    0%{
+        
+    }
+
+    25%{
+        background-color: aquamarine; background-color: rgb(151, 151, 147);
+    }
+
+    50%{
+        background-color: aquamarine; background-color: rgb(151, 151, 147);
+    }
+
+    75%{
+        background-color: inherit; background-color: inherit; box-shadow: inherit; transform: inherit;
+    }
+
+    100%{
+        background-color: aquamarine; background-color: rgb(151, 151, 147);
+    }
+}
+
+body {
+    background-color: rgb(106, 106, 211);
+}
+
+#maindiv {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    border: 1px solid gray;
+    width: 70%;
+    height: 650px;
+    background-color: rgb(151, 151, 147);
+    box-shadow: 40px 60px 5px rgb(56, 56, 56);
+    transform: skew(5deg);
+    border: none;
+    border-radius: 20px;
+    animation: freefire 5s linear 1s infinite;
+    /* display: none; */
+}
+
+@media screen and (max-width: 700px) and (min-width: 250px){
+    #maindiv{
+        width: 250%;
+        position: relative;
+        right: 80px;
+        animation: none;
+        box-shadow: none;
+        background-color: none;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 750px){
+    #maindiv{
+        width: 100%;
+    }
+}
+
+input {
+    display: flex;
+    padding: 2%;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-display: inherit;
+    margin-left: 50%;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+label {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    margin-top: 4px;
+    font-variant: small-caps;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 20px 30px 10px rgb(65, 64, 64);
+}
+
+li {
+    list-style: none;
+}
+
+#div1 {
+    margin-top: 8%;
+}
+
+#butt1 {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    cursor: pointer;
+    box-shadow: 20px 40px 10px rgb(92, 91, 91);
+    text-shadow: 20px 40px 3px rgb(126, 124, 124);
+}
+
+h1{
+    text-align: center;
+    /* display: none; */
+}
+
+/* @keyframes example1 {
+    0%{
+        background-color: rgb(36, 36, 36);
+        transform: skewX(0deg);
+        transition: 0.5s;
+    }
+    25%{
+        background-color: rgb(36, 36, 36);
+        transform: skewX(20deg);
+        transition: 0.5;
+    }
+
+    50%{
+        background-color: rgb(36, 36, 36);
+        transform: skewX(10deg);
+        transition: 0.5;
+    }
+
+    75%{
+        background-color: rgb(36, 36, 36);
+        transform: skewY(20deg);
+        transition: 0.5;
+    }
+
+    100%{
+        background-color: rgb(36, 36, 36);
+        transform: skewX(10deg);
+        transition: 0.5;
+    }
+
+} */
+
+/* #butt1:hover {
+    background-color: rgb(36, 36, 36);
+    transform: skewY(20deg);
+    transition: 0.2s
+    animation: example1 -5s linear 1s infinite;
+    animation-direction: alternate;
+} */
+
