@@ -1,0 +1,84 @@
+<!--  Quiz Application with sign-up and sign-in page  -->
+
+
+
+<!--  Sign-up Page Code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Sign-Up</h1>
+
+
+    <div id="maindiv">
+
+
+
+        <div id="div1">
+
+            <form action="index2.html" target="_blank" id="form1">
+
+                <ul id="ul1">
+
+                    <li class="lists" id="li1"> <label for="fname" class="labels" id="label1">First Name: </label>
+                        <input type="text" id="fname" placeholder="First Name" required
+                            onfocus="this.style.backgroundColor = 'gray';this.style.color = 'white';this.style.border = '1px solid gray';"
+                            onblur="this.style.backgroundColor = 'white';this.style.color = 'black';this.style.border = 'inherit'">
+                            <p style="color: red;" id="ptag1"></p>
+                    </li><br><br>
+
+                    <li class="lists" id="li2"> <label for="lname" class="labels" id="label2">Last Name: </label> <input
+                            type="text" id="lname" placeholder="Last Name" required
+                            onfocus="this.style.backgroundColor = 'gray';this.style.color = 'white';this.style.border = '1px solid gray';"
+                            onblur="this.style.backgroundColor = 'white';this.style.color = 'black';this.style.border = 'inherit'">
+                            <p style="color: red;" id="ptag2"></p>
+                    </li><br><br>
+
+                    <li class="lists" id="li3"> <label for="email1" class="labels" id="label3">Email: </label> <input
+                            type="email" id="email1" placeholder="Email" required
+                            onfocus="this.style.backgroundColor = 'gray';this.style.color = 'white';this.style.border = '1px solid gray';"
+                            onblur="this.style.backgroundColor = 'white';this.style.color = 'black';this.style.border = 'inherit'">
+                            <p style="color: red;" id="ptag3"></p>
+                    </li><br><br>
+
+                    <li class="lists" id="li4"> <label for="pass1" class="labels" id="label4">Password: </label> <input
+                            type="password" id="pass1" placeholder="Password" required
+                            onfocus="this.style.backgroundColor = 'gray';this.style.color = 'white';this.style.border = '1px solid gray';"
+                            onblur="this.style.backgroundColor = 'white';this.style.color = 'black';this.style.border = 'inherit'">
+                            <p style="color: red;" id="ptag4"></p>
+                    </li><br><br>
+
+                    <li class="lists" id="li5"> <label for="pass2" class="labels" id="label5">Confirm Password: </label>
+                        <input type="password" id="pass2" placeholder="Confirm Password" required
+                            onfocus="this.style.backgroundColor = 'gray';this.style.color = 'white';this.style.border = '1px solid gray';"
+                            onblur="this.style.backgroundColor = 'white';this.style.color = 'black';this.style.border = 'inherit'">
+                            <p style="color: red;" id="ptag5"></p>
+                    </li><br><br>
+
+                    <button id="butt1" onclick="return foo1()">Submit</button>
+
+                </ul>
+
+            </form>
+
+        </div> <!-- div1 ends here -->
+
+    </div> <!-- maindiv ends here -->
+
+    <script src="app1.js"></script>
+
+</body>
+
+</html>
