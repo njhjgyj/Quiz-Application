@@ -1,0 +1,175 @@
+/*  Sign-in Page code  */
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 65, 65);
+}
+
+#maindiv{
+    margin-top: 6%;
+    margin-right: 20%;
+    border: 1px solid gray;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: rgb(246, 42, 42);
+    box-shadow: 0px 0px 50px rgb(132, 132, 132);
+}
+
+@media screen and (max-width: 1100px) and (min-width: 250px){
+    #maindiv{
+        width: 150%;
+        position: relative;
+        right: -7rem;
+    }
+
+    #signinh1{
+        display: none;
+    }
+
+    input{
+        position: relative;
+        left: -6rem;
+    }
+
+    label{
+        display: none;
+    }
+
+    #butt2{
+        position: relative;
+        right: -5rem;
+    }
+
+}
+
+#div1{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    box-shadow: 0px 0px 30px black;
+    padding: 30px;
+    background-color: rgb(47, 47, 47);
+    color: aliceblue;
+    border-radius: 10px;
+    /* height: 500px; */
+}
+
+input{
+    padding: 2%;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-display: inherit;
+    margin-left: 20%;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+
+label{
+    position: absolute;
+    left: 32%;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    right: -33%;
+    /* top: 62%; */
+    top: 62%;
+    cursor: pointer;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+span{
+    text-align: center;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+button:hover{
+    background-color: rgb(89, 89, 89);
+    color: white;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+
+@keyframes forRotate1 {
+    0%{background-color: rgb(67, 65, 65);}
+    25%{background-color: rgb(157, 157, 157);}
+    50%{background-color: rgb(171, 171, 171);}
+    75%{background-color: rgb(98, 98, 98);}
+    100%{background-color: rgb(50, 50, 50);}
+}
+
+body{
+    animation: forRotate1 5s linear 2s infinite;
+}
+
+@keyframes forRotate2 {
+    0%{color: aqua;}
+    25%{color: aquamarine;}
+    50%{color: blue;}
+    75%{color: black;}
+    100%{color: blueviolet;}
+    /* from{rotate: 0deg;}
+    to{rotate: 360deg;} */
+
+}
+
+#signinh1{
+    animation: forRotate2 4s linear infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* position: absolute; */
+    /* display: flex;
+    justify-content: center; */
+
+    /* position: relative;
+    right: -290px;
+    bottom: -6%;
+    rotate: 90deg;
+    rotate: 180deg;
+    left: -57%;
+    rotate: 270deg;
+    top: -1%;
+    rotate: 360deg;
+    margin-left: 57%; */
+
+    position: relative;
+    right: -25%
+
+}
+
+#signinptag1{
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgb(250, 211, 163);
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    display: none;
+}
